@@ -13,6 +13,7 @@ def update_info_lessons():
         json_links = json.load(fh)
 
         
+        
     count = 0
     for link in json_links:
         if 'type' in json_links[link] and json_links[link]['type'] != None:
